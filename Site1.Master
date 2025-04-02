@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ShopingWebsite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+        .div.div2{
+             width: 40em;
+         height: 15em;
+         background-color:black;
+         box-shadow: 5px 5px 25px #0000005f;
+         padding: 10px 30px;
+         border-radius: 10px;
+        }
+        </style>
+    <title> Relince Digital</title>
+    
+    </head>
+<body>
+    <form id="form1" runat="server">
+        
+           
+        <nav>
+ 
+     <div class="right" style="background-color:black">
+         
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br />
+&nbsp;
+             <asp:Image ID="Image2" runat="server" BorderColor="White" ForeColor="White" Height="32px" ImageUrl="https://static.vecteezy.com/system/resources/thumbnails/010/842/736/small_2x/online-shopping-text-banner-marketing-pop-art-banner-design-png.png" Width="157px" />
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+             <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/HomePage.aspx" Font-Bold="True" Font-Size="X-Large" ForeColor="White" Height="30px" Width="136px">Our Product</asp:HyperLink>
+             &nbsp;&nbsp;
+         
+             <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="~/WebForm1.aspx" Height="24px">Mobiles</asp:HyperLink>
+             &nbsp;&nbsp;&nbsp;
+             <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="White" NavigateUrl="~/WebForm2.aspx" Height="24px">Watchs</asp:HyperLink>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" NavigateUrl="~/WebForm3.aspx" Height="24px">Ipads</asp:HyperLink>
+             &nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" NavigateUrl="~/WebForm4.aspx" Height="24px">Earbuds</asp:HyperLink>
+             &nbsp;&nbsp;&nbsp;&nbsp;
+             <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="White" NavigateUrl="~/WebForm5.aspx" Height="24px">Television</asp:HyperLink>
+             <br />
+             &nbsp;
+             <br />
+     </div>
+     </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <br />
+        </asp:ContentPlaceHolder>
+        
+             <div style ="background-color :black"> 
+
+             </div>
+            
+            
+    </form>
+</body>
+</html>
